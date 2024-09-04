@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيد ميلادي الـ21</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Open Graph Meta Tags for Facebook -->
+    <meta property="og:title" content="احتفلوا معي بعيد ميلادي الـ21!">
+    <meta property="og:description" content="اكتب تهنئتك هنا وانضم للاحتفال بعيد ميلادي.">
+    <meta property="og:image" content="imgs/5962818885516379613.jpg">
+   <!--<meta property="og:url" content="رابط_الموقع_بتاعك">-->
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <div class="container">
+        <h1>عيد ميلادي الـ21 🎉🦋</h1>
+        <img src="imgs/5962818885516379613.jpg" alt="" class="profile-pic">
+        <p>اكتب تهنئتك هنا:</p>
+        <form id="greetingForm">
+            <input type="text" id="name" placeholder="اكتب اسمك" required>
+            <textarea id="message" placeholder="اكتب تهنئتك هنا" required></textarea>
+            <button type="submit">إرسال التهنئة</button>
+        </form>
+        <div id="greetings">
+            <h2>التهاني 🦋</h2>
+            <ul id="greetingsList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

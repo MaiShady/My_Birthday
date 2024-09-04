@@ -1,0 +1,106 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffe6e6; /* لون خلفية وردي فاتح */
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #ff1493; /* لون وردي غامق */
+    font-size: 2em;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+h1::after {
+    content: "🦋";
+    position: absolute;
+    right: -30px;
+    top: 0;
+    font-size: 1.5em;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 3px solid #ff1493;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ff1493;
+    border-radius: 10px;
+    font-size: 1em;
+    background-color: #fff0f5; /* خلفية وردية خفيفة */
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    background-color: #ff69b4;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+#greetings {
+    margin-top: 20px;
+}
+
+#greetings h2 {
+    color: #ff1493;
+}
+
+#greetingsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#greetingsList li {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #ffe4e1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+    position: relative;
+}
+
+#greetingsList li::before {
+    content: "🦋";
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+}
